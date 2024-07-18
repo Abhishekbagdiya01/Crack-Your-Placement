@@ -1,7 +1,7 @@
 # Crack-Your-Placement-in-Java
 
-This repository contains Java solutions for the DSA sheet designed by Arsh Goyal. The sheet covers over 280+ DSA (Data Structures and Algorithms) questions, encompassing various concepts to solidify your understanding and prepare you for technical interviews at top tech companies.
-
+This repository contains Java solutions for the DSA sheet designed by Arsh Goyal. The sheet covers over 280+ DSA (Data Structures and Algorithms) questions, encompassing various concepts to solidify your understanding and prepare you for technical interviews at top tech companies. </br>
+https://www.proelevate.in/dsa-practice/arsh-dsa-sheet
 ## Topics
 * Array
 * String
