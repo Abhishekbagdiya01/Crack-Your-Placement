@@ -1,7 +1,8 @@
 package Arrays;
 import java.util.HashSet;
 /**
- * FindDublicate
+ * Find Dublicate
+ * https://leetcode.com/problems/find-the-duplicate-number/
  */
 public class FindDublicate {
 
@@ -10,7 +11,7 @@ public class FindDublicate {
        System.out.println(findDuplicate(arr));
     }
      public static int findDuplicate(int[] nums) {
-     HashSet set = new HashSet<>();
+     HashSet<Integer> set = new HashSet<>();
      for (int i = 0; i < nums.length; i++) {
       if (set.contains(nums[i])) {
         return nums[i];
