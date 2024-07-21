@@ -23,3 +23,20 @@ class RemoveDublicate{
        System.out.println(removeDuplicates(nums)); 
     }
 }
+
+
+/*
+    public  static int removeDuplicates(int[] nums) {
+        int n=0;
+        int i=1;
+        while(n<nums.length && i<nums.length){
+            if(nums[n]==nums[i]){
+                i++;
+            }
+            else{
+                nums[++n]=nums[i++];
+            }
+        }
+        return n+1;
+     }   
+ */
