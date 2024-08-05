@@ -29,7 +29,7 @@ public class MiddleOfTheLinkedlist {
     System.out.println("New List node");
     newListNode = middleNode(listNode);
     newListNode.printListNode(newListNode);
-  
+
   }
 
 }
