@@ -19,6 +19,6 @@ public class ConvertBinaryNumberInALinkedListToInteger {
     ListNode listNode = new ListNode(1,
         new ListNode(0, new ListNode(1, new ListNode(0, new ListNode(1, new ListNode(0))))));
     int a = getDecimalValue(listNode);
-    System.err.println(a);
+    System.out.println(a);
   }
 }
