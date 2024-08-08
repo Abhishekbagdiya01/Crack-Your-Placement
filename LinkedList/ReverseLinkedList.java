@@ -10,6 +10,7 @@ public class ReverseLinkedList {
             curr = next;
         }
         return prev;
+
     }
     public static void main(String[] args) {
         ListNode listNode = new ListNode(1,
@@ -22,3 +23,4 @@ public class ReverseLinkedList {
   
     }
 }
+
