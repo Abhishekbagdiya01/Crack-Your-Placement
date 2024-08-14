@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/next-greater-element-i/description/
 public class NextGreaterElementI {
   public static int[] nextGreaterElement(int[] nums1, int[] nums2) {
     int[] array = new int[nums1.length];
@@ -25,7 +26,7 @@ public class NextGreaterElementI {
       String output = (i != nums.length - 1) ? (nums[i] + ",") : (nums[i] + "]");
       System.out.print(output);
     }
-  
+
     System.out.println();
   }
 
