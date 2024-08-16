@@ -6,6 +6,31 @@ public class MergeTwoSortedList {
   public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
     ListNode l1 = list1;
     ListNode l2 = list2;
+    ListNode temp = new ListNode();
+    ListNode dummy = temp;
+
+    while (l1 != null && l2 != null) {
+      if (l1.val > l2.val) {
+        temp.next = l2;
+        temp = l2;
+        l2 = l2.next;
+      } else {
+        temp.next = l1;
+        temp = l1;
+        l1 = l1.next;
+      }
+    }
+    if (l1 != null) {
+      temp.next = l1;
+    } else {
+      temp.next = l2;
+    }
+    return dummy.next;
+  }
+
+  public static ListNode mergeTwoLists1(ListNode list1, ListNode list2) {
+    ListNode l1 = list1;
+    ListNode l2 = list2;
     ListNode newNode = new ListNode();
     ListNode dummy = newNode;
     ArrayList<Integer> arr = new ArrayList<>();
@@ -45,5 +70,8 @@ public class MergeTwoSortedList {
     ListNode result = mergeTwoLists(list1, list2);
     System.out.println("Sorted List");
     result.printListNode(result);
+    ListNode result1 = mergeTwoLists1(list1, list2);
+    System.out.println("Sorted List");
+    result1.printListNode(result1);
   }
 }
