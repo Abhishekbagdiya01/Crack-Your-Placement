@@ -9,7 +9,7 @@ public class DeleteNodeInaLinkedList {
     ListNode list = new ListNode(4, new ListNode(5, new ListNode(1, new ListNode(9))));
 
     list.printListNode(list);
-    deleteNode(list);
+    deleteNode(list.next);
     list.printListNode(list);
   }
 }
