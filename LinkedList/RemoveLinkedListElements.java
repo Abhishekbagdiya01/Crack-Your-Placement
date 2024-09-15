@@ -1,4 +1,3 @@
-import java.awt.List;
 
 /**
  * RemoveLinkedListElements
