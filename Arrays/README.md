@@ -10,3 +10,5 @@
 * Find-all-duplicates-in-an-array ✅ https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
 * Merge-sorted-array ✅ https://leetcode.com/problems/merge-sorted-array/description/
 * Majority-element ✅ https://leetcode.com/problems/majority-element/
+* Group Anagrams ✅ https://leetcode.com/problems/group-anagrams/description/
+* Top K Frequent Elements ✅ https://leetcode.com/problems/top-k-frequent-elements/description/
