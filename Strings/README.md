@@ -8,3 +8,4 @@
 * Reverse-Words-In-A-String https://leetcode.com/problems/reverse-words-in-a-string/description/
 * Valid numbers https://leetcode.com/problems/valid-number/
 * Longest Repeating Character Replacement https://leetcode.com/problems/longest-repeating-character-replacement/description/
+* Permutation in String https://leetcode.com/problems/permutation-in-string/description/
