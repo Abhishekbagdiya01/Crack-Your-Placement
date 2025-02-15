@@ -10,3 +10,6 @@
 * Longest Repeating Character Replacement ✅ https://leetcode.com/problems/longest-repeating-character-replacement/description/
 * Permutation in String ✅ https://leetcode.com/problems/permutation-in-string/description/
 * Minimum Window Substring ✅ https://leetcode.com/problems/minimum-window-substring/description/
+* Evaluate Reverse Polish Notation
+ ✅ https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
+
